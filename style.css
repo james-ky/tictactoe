@@ -1,0 +1,40 @@
+* {
+    border: solid 1px red;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    float: left;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    transition: 0.5s background-color;
+}
+ul li:hover {
+ background: rgba(40,230,40, 0.75);
+    transition: 0.5s background-color;
+}
+.tttGameInner {
+    margin: 0 auto;
+    float: left;
+    display: inline-block;
+    width: 458px;
+    height: 458px;
+    padding:0;
+}
+
+li.active {
+    background: blue;
+}
+
+li.cActive {
+    background: red;
+    transition: 0.75s background-color;
+    -webkit-transition-delay: 1s; /* Safari */
+    transition-delay: 1s;
+}
